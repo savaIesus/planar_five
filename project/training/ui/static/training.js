@@ -8,7 +8,7 @@
         roles: $('camera-roles'), create: $('create-session'), setupMessage: $('setup-message'),
         sessionTitle: $('session-title'), sessionStatus: $('session-status'), partsCount: $('parts-count'),
         framesCount: $('frames-count'), partNumber: $('part-number'), partProgress: $('part-progress'),
-        newPart: $('new-part'), finishPart: $('finish-part'), stepConveyor: $('step-conveyor'),
+        newPart: $('new-part'), finishPart: $('finish-part'),
         export: $('export-dataset'),
         finishSession: $('finish-session'), workflowMessage: $('workflow-message'), cameraTitle: $('camera-title'),
         frameId: $('frame-id'), wrap: $('canvas-wrap'), emptyState: $('empty-state'), image: $('frame-image'),
@@ -143,7 +143,7 @@
         els.partsCount.textContent = session.part_count ?? 0;
         els.framesCount.textContent = session.frame_count ?? 0;
         els.sessionStatus.textContent = state.active ? (part ? 'СБОРКА' : 'ГОТОВА') : 'ЗАВЕРШЕНА';
-        els.partNumber.textContent = part ? `#${part.part_id}` : '—';
+        els.partNumber.textContent = part ? `#${part.part_id}${part.position ? ` · ряд ${part.position.row}, ячейка ${part.position.column}` : ''}` : '—';
         if (part) {
             els.partProgress.textContent = `${frameIds.length} из ${expected} камер снято · ${state.next_role ? `следующая: ${state.next_role}` : 'все камеры готовы'}`;
         } else {
@@ -152,9 +152,6 @@
         const busy = Boolean(currentFrame) || Boolean(state.current_frame);
         els.newPart.disabled = !state.active || Boolean(part) || busy;
         els.finishPart.disabled = !state.active || !part || busy || frameIds.length !== expected;
-        const conveyorEnabled = !config || config.conveyor_step !== false;
-        els.stepConveyor.classList.toggle('hidden', !conveyorEnabled);
-        els.stepConveyor.disabled = !state.active || Boolean(part) || busy;
         els.finishSession.disabled = !state.active || Boolean(part) || busy || Number(session.frame_count || 0) === 0;
         els.export.disabled = !state.active || Number(session.frame_count || 0) === 0;
         els.nextCamera.disabled = true;
@@ -457,6 +454,7 @@
 
     els.newPart.addEventListener('click', async () => {
         els.newPart.disabled = true;
+        setMessage(els.workflowMessage, 'Перемещаем робота к ячейке…');
         try {
             const result = await api('/api/training/parts', {method: 'POST', body: '{}'});
             renderState(result);
@@ -510,52 +508,12 @@
 
     els.finishPart.addEventListener('click', async () => {
         els.finishPart.disabled = true;
-        setMessage(els.workflowMessage, 'Деталь сохранена. Перемещаем ленту к следующему корпусу…');
+        setMessage(els.workflowMessage, 'Сохраняем деталь…');
         try {
             const result = await api('/api/training/parts/finish', {method: 'POST', body: '{}'});
             resetFrame();
             renderState(result);
-            const conveyor = result.conveyor || {};
-            const partId = result.finished_part ? result.finished_part.part_id : '—';
-            const step = Number.isInteger(conveyor.step) ? ` (STEP=${conveyor.step})` : '';
-            if (conveyor.moved) {
-                setMessage(
-                    els.workflowMessage,
-                    `Деталь #${partId} сохранена. Конвейер сделал шаг к следующему корпусу${step}. Можно начинать следующую деталь.`,
-                    'ok',
-                );
-            } else if (conveyor.enabled === false) {
-                setMessage(els.workflowMessage, `Деталь #${partId} сохранена. Шаг конвейера отключён.`, 'ok');
-            } else {
-                setMessage(
-                    els.workflowMessage,
-                    `Деталь #${partId} сохранена, но лента не сдвинулась: ${conveyor.error || 'неизвестная ошибка'}. Проверьте контроллер и нажмите «СДВИНУТЬ ЛЕНТУ».`,
-                    'error',
-                );
-            }
-        } catch (error) {
-            setMessage(els.workflowMessage, error.message, 'error');
-            renderState(state);
-        }
-    });
-
-    els.stepConveyor.addEventListener('click', async () => {
-        els.stepConveyor.disabled = true;
-        setMessage(els.workflowMessage, 'Перемещаем ленту к следующему корпусу…');
-        try {
-            const result = await api('/api/training/conveyor/step', {method: 'POST', body: '{}'});
-            renderState(result);
-            const conveyor = result.conveyor || {};
-            const step = Number.isInteger(conveyor.step) ? ` (STEP=${conveyor.step})` : '';
-            if (conveyor.moved) {
-                setMessage(els.workflowMessage, `Лента перемещена к следующему корпусу${step}.`, 'ok');
-            } else {
-                setMessage(
-                    els.workflowMessage,
-                    `Лента не сдвинулась: ${conveyor.error || 'неизвестная ошибка'}`,
-                    'error',
-                );
-            }
+            setMessage(els.workflowMessage, 'Деталь сохранена. Начните следующую для перемещения робота.', 'ok');
         } catch (error) {
             setMessage(els.workflowMessage, error.message, 'error');
             renderState(state);

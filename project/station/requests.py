@@ -67,6 +67,7 @@ def move_to_home(serial_connection):
             "Ответ устройства: время калибровки истекло."
             "Проверьте концевики, питание и направление осей.\n", "console", "red"
         )
+        raise TimeoutError("Калибровка не подтверждена контроллером")
 
     relevant_coordinates = reading_coordinate_configuration('relevant_coordinates.json')
     current_coordinates = [
@@ -101,7 +102,10 @@ def move_to_coordinates(serial_connection, x=None, y=None, z=None):
         command += f' Z{z}'
 
     travel_time = calculate_travel_time(
-        prev_x, prev_y, prev_z, x or prev_x, y or prev_y, z or prev_z)
+        prev_x, prev_y, prev_z,
+        x if x is not None else prev_x,
+        y if y is not None else prev_y,
+        z if z is not None else prev_z)
 
     send_command(serial_connection, command)
     send_consoles_data(

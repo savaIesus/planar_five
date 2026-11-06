@@ -6,3 +6,5 @@ openpyxl
 opencv-python
 ultralytics
 pyserial
+fastapi
+uvicorn

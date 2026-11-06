@@ -22,7 +22,7 @@ from typing import Any, Protocol, Sequence, runtime_checkable
 import cv2
 import numpy as np
 
-from training.yolo import (
+from project.training.yolo import (
     PolygonAnnotation,
     annotation_to_yolo_lines,
     draw_annotations,
@@ -30,15 +30,7 @@ from training.yolo import (
 )
 
 
-DEFAULT_CAMERA_ROLES = (
-    "INPUT_LEFT",
-    "INPUT_RIGHT",
-    "SPIDER_LEFT",
-    "SPIDER_RIGHT",
-    "SPIDER_IN",
-    "SPIDER_OUT",
-    "TOP",
-)
+DEFAULT_CAMERA_ROLES = tuple(f"CAMERA_{index}" for index in range(5))
 
 # Список можно переопределить через форму мастера. Названия намеренно
 # нейтральные: конкретный набор моделей может иметь собственную таксономию.
@@ -67,9 +59,7 @@ class ValidationError(CollectorError, ValueError):
 class CameraFrameSource(Protocol):
     """Минимальный интерфейс источника кадров.
 
-    ``CameraManager`` из production-приложения уже реализует этот API через
-    ``capture_single(role)``. Протокол позволяет не импортировать и не
-    запускать производственный цикл внутри мастера обучения.
+    Адаптер планарной станции реализует ``capture_single(role)``.
     """
 
     def capture_single(self, role: str) -> Any:
@@ -305,7 +295,7 @@ class TrainingDatasetStore:
     def part_count(self) -> int:
         return len(self._parts)
 
-    def create_part(self, label: str | None = None) -> dict[str, Any]:
+    def create_part(self, label: str | None = None, position: dict[str, Any] | None = None) -> dict[str, Any]:
         with self._lock:
             part_id = self._next_part_id
             self._next_part_id += 1
@@ -318,6 +308,7 @@ class TrainingDatasetStore:
                 ),
                 "finished_at": None,
                 "frame_ids": [],
+                "position": position,
             }
             self._parts[part_id] = part
             self._write_state()
@@ -601,15 +592,11 @@ class TrainingCollector:
         config: TrainingConfig | None = None,
         *,
         frame_source: CameraFrameSource | None = None,
-        conveyor: Any | None = None,
+        motion: Any | None = None,
     ):
         self.config = config or TrainingConfig()
         self.frame_source = frame_source
-        # Объект с методом ``advance()``: шаг ленты к следующей детали после
-        # нажатия «Завершить деталь». ``None`` отключает движение, чтобы
-        # мастер можно было использовать без подключённого контроллера.
-        self.conveyor = conveyor
-        self.last_conveyor_result: dict[str, Any] | None = None
+        self.motion = motion
         self.store: TrainingDatasetStore | None = None
         self.current_part_id: int | None = None
         self.current_frame_id: int | None = None
@@ -643,7 +630,11 @@ class TrainingCollector:
                 validation_ratio=self.config.validation_ratio,
                 yolo_task=self.config.yolo_task,
             )
+            if not set(config.camera_roles).issubset(DEFAULT_CAMERA_ROLES):
+                raise ValidationError("Допустимы только камеры CAMERA_0 — CAMERA_4")
             self.config = config
+            if self.motion is not None:
+                self.motion.reset_session()
             self.store = TrainingDatasetStore(config, dataset_name=dataset_name)
             self.current_part_id = None
             self.current_frame_id = None
@@ -679,7 +670,18 @@ class TrainingCollector:
                 raise CollectorError(
                     f"Деталь #{self.current_part_id} ещё не завершена"
                 )
-            part = self.store.create_part(label)
+            position = None
+            if self.motion is not None:
+                try:
+                    position = self.motion.move_next()
+                except Exception as exc:
+                    raise CollectorError(f"Ошибка перемещения: {exc}") from exc
+            try:
+                part = self.store.create_part(label, position=position)
+            except Exception:
+                if self.motion is not None:
+                    self.motion.invalidate()
+                raise
             self.current_part_id = int(part["part_id"])
             self.current_frame_id = None
             return self.snapshot()
@@ -770,66 +772,7 @@ class TrainingCollector:
             self.current_part_id = None
             self.current_frame_id = None
 
-        # Шаг выполняется вне блокировки: опрос ``/api/training/state`` не
-        # должен ждать, пока лента физически пройдёт расстояние до
-        # следующего корпуса.
-        movement = self._advance_conveyor()
-        with self._lock:
-            return self.snapshot(
-                extra={
-                    "finished_part": part,
-                    "conveyor": movement,
-                }
-            )
-
-    def _advance_conveyor(self) -> dict[str, Any]:
-        """Сделать один шаг ленты к следующей детали.
-
-        Разметка к этому моменту уже сохранена на диске, поэтому сбой
-        оборудования не отменяет завершение детали: оператор получает
-        результат шага в поле ``conveyor`` и может повторить его кнопкой
-        «Сдвинуть ленту», не теряя открытую сессию.
-        """
-        if self.conveyor is None:
-            result: dict[str, Any] = {
-                "enabled": False,
-                "moved": False,
-                "error": None,
-            }
-        else:
-            try:
-                result = {
-                    "enabled": True,
-                    **dict(self.conveyor.advance() or {}),
-                }
-                result.setdefault("moved", False)
-            except Exception as exc:
-                result = {
-                    "enabled": True,
-                    "moved": False,
-                    "error": str(exc),
-                }
-        self.last_conveyor_result = result
-        return result
-
-    def step_conveyor(self) -> dict[str, Any]:
-        """Повторить шаг ленты вручную после сбоя оборудования.
-
-        Двигать ленту посреди детали нельзя: кадры и разметка относятся к
-        текущему положению корпуса. Поэтому шаг разрешён только между
-        деталями.
-        """
-        with self._lock:
-            self._require_session()
-            if self.current_frame_id is not None:
-                raise CollectorError("Сначала сохраните разметку текущего кадра")
-            if self.current_part_id is not None:
-                raise CollectorError(
-                    f"Деталь #{self.current_part_id} ещё не завершена"
-                )
-        movement = self._advance_conveyor()
-        with self._lock:
-            return self.snapshot(extra={"conveyor": movement})
+            return self.snapshot(extra={"finished_part": part})
 
     def finish_session(self) -> dict[str, Any]:
         with self._lock:
@@ -838,7 +781,7 @@ class TrainingCollector:
                 raise CollectorError("Сначала сохраните разметку текущего кадра")
             if self.current_part_id is not None:
                 raise CollectorError("Сначала завершите текущую деталь")
-            from training.yolo import export_yolo_dataset
+            from project.training.yolo import export_yolo_dataset
 
             # Сначала строим экспорт: если на диске не хватает файла, оператор
             # получает ошибку и может исправить её, не теряя открытую сессию.

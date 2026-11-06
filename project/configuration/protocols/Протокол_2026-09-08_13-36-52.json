@@ -1,0 +1,606 @@
+{
+    "Start time": "2026-09-08_13-29-41",
+    "defects": [
+        {
+            "vert": 0,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-02"
+        },
+        {
+            "vert": 0,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-05"
+        },
+        {
+            "vert": 0,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-09"
+        },
+        {
+            "vert": 0,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-12"
+        },
+        {
+            "vert": 0,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-16"
+        },
+        {
+            "vert": 0,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-20"
+        },
+        {
+            "vert": 0,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-23"
+        },
+        {
+            "vert": 0,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-27"
+        },
+        {
+            "vert": 0,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-30"
+        },
+        {
+            "vert": 0,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-34"
+        },
+        {
+            "vert": 1,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-38"
+        },
+        {
+            "vert": 1,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-41"
+        },
+        {
+            "vert": 1,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-45"
+        },
+        {
+            "vert": 1,
+            "hor": 3,
+            "type": "glass",
+            "time": "2026-09-08_13-30-50"
+        },
+        {
+            "vert": 1,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-53"
+        },
+        {
+            "vert": 1,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-09-08_13-30-56"
+        },
+        {
+            "vert": 1,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-00"
+        },
+        {
+            "vert": 1,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-04"
+        },
+        {
+            "vert": 1,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-08"
+        },
+        {
+            "vert": 1,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-11"
+        },
+        {
+            "vert": 2,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-15"
+        },
+        {
+            "vert": 2,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-19"
+        },
+        {
+            "vert": 2,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-23"
+        },
+        {
+            "vert": 2,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-27"
+        },
+        {
+            "vert": 2,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-30"
+        },
+        {
+            "vert": 2,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-35"
+        },
+        {
+            "vert": 2,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-38"
+        },
+        {
+            "vert": 2,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-42"
+        },
+        {
+            "vert": 2,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-46"
+        },
+        {
+            "vert": 2,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-50"
+        },
+        {
+            "vert": 3,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-54"
+        },
+        {
+            "vert": 3,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-09-08_13-31-58"
+        },
+        {
+            "vert": 3,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-01"
+        },
+        {
+            "vert": 3,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-05"
+        },
+        {
+            "vert": 3,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-09"
+        },
+        {
+            "vert": 3,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-13"
+        },
+        {
+            "vert": 3,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-17"
+        },
+        {
+            "vert": 3,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-21"
+        },
+        {
+            "vert": 3,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-25"
+        },
+        {
+            "vert": 3,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-29"
+        },
+        {
+            "vert": 4,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-33"
+        },
+        {
+            "vert": 4,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-37"
+        },
+        {
+            "vert": 4,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-41"
+        },
+        {
+            "vert": 4,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-45"
+        },
+        {
+            "vert": 4,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-50"
+        },
+        {
+            "vert": 4,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-54"
+        },
+        {
+            "vert": 4,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-09-08_13-32-58"
+        },
+        {
+            "vert": 4,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-02"
+        },
+        {
+            "vert": 4,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-06"
+        },
+        {
+            "vert": 4,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-10"
+        },
+        {
+            "vert": 5,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-14"
+        },
+        {
+            "vert": 5,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-18"
+        },
+        {
+            "vert": 5,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-23"
+        },
+        {
+            "vert": 5,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-27"
+        },
+        {
+            "vert": 5,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-31"
+        },
+        {
+            "vert": 5,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-36"
+        },
+        {
+            "vert": 5,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-40"
+        },
+        {
+            "vert": 5,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-44"
+        },
+        {
+            "vert": 5,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-48"
+        },
+        {
+            "vert": 5,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-53"
+        },
+        {
+            "vert": 6,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-09-08_13-33-57"
+        },
+        {
+            "vert": 6,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-01"
+        },
+        {
+            "vert": 6,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-06"
+        },
+        {
+            "vert": 6,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-10"
+        },
+        {
+            "vert": 6,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-14"
+        },
+        {
+            "vert": 6,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-18"
+        },
+        {
+            "vert": 6,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-23"
+        },
+        {
+            "vert": 6,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-27"
+        },
+        {
+            "vert": 6,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-31"
+        },
+        {
+            "vert": 6,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-35"
+        },
+        {
+            "vert": 7,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-40"
+        },
+        {
+            "vert": 7,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-44"
+        },
+        {
+            "vert": 7,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-48"
+        },
+        {
+            "vert": 7,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-53"
+        },
+        {
+            "vert": 7,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-09-08_13-34-57"
+        },
+        {
+            "vert": 7,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-02"
+        },
+        {
+            "vert": 7,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-06"
+        },
+        {
+            "vert": 7,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-10"
+        },
+        {
+            "vert": 7,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-14"
+        },
+        {
+            "vert": 7,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-19"
+        },
+        {
+            "vert": 8,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-24"
+        },
+        {
+            "vert": 8,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-28"
+        },
+        {
+            "vert": 8,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-32"
+        },
+        {
+            "vert": 8,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-37"
+        },
+        {
+            "vert": 8,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-41"
+        },
+        {
+            "vert": 8,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-46"
+        },
+        {
+            "vert": 8,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-51"
+        },
+        {
+            "vert": 8,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-55"
+        },
+        {
+            "vert": 8,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-09-08_13-35-59"
+        },
+        {
+            "vert": 8,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-03"
+        },
+        {
+            "vert": 9,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-08"
+        },
+        {
+            "vert": 9,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-12"
+        },
+        {
+            "vert": 9,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-17"
+        },
+        {
+            "vert": 9,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-22"
+        },
+        {
+            "vert": 9,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-26"
+        },
+        {
+            "vert": 9,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-31"
+        },
+        {
+            "vert": 9,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-36"
+        },
+        {
+            "vert": 9,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-40"
+        },
+        {
+            "vert": 9,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-45"
+        },
+        {
+            "vert": 9,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-09-08_13-36-50"
+        }
+    ],
+    "Finish time": "2026-09-08_13-36-52"
+}

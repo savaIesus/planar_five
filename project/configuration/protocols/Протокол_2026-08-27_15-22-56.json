@@ -1,0 +1,606 @@
+{
+    "Start time": "2026-08-27_15-11-53",
+    "defects": [
+        {
+            "vert": 0,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_15-12-15"
+        },
+        {
+            "vert": 0,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_15-12-39"
+        },
+        {
+            "vert": 0,
+            "hor": 2,
+            "type": "good",
+            "time": "2026-08-27_15-12-58"
+        },
+        {
+            "vert": 0,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_15-13-09"
+        },
+        {
+            "vert": 0,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_15-13-14"
+        },
+        {
+            "vert": 0,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_15-13-18"
+        },
+        {
+            "vert": 0,
+            "hor": 6,
+            "type": "platform",
+            "time": "2026-08-27_15-13-23"
+        },
+        {
+            "vert": 0,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_15-13-43"
+        },
+        {
+            "vert": 0,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-27_15-13-52"
+        },
+        {
+            "vert": 0,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_15-13-57"
+        },
+        {
+            "vert": 1,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_15-14-01"
+        },
+        {
+            "vert": 1,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_15-14-06"
+        },
+        {
+            "vert": 1,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_15-14-10"
+        },
+        {
+            "vert": 1,
+            "hor": 3,
+            "type": "sinks",
+            "time": "2026-08-27_15-14-15"
+        },
+        {
+            "vert": 1,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_15-14-20"
+        },
+        {
+            "vert": 1,
+            "hor": 5,
+            "type": "sinks",
+            "time": "2026-08-27_15-14-25"
+        },
+        {
+            "vert": 1,
+            "hor": 6,
+            "type": "good",
+            "time": "2026-08-27_15-14-26"
+        },
+        {
+            "vert": 1,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_15-14-34"
+        },
+        {
+            "vert": 1,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-27_15-14-39"
+        },
+        {
+            "vert": 1,
+            "hor": 9,
+            "type": "sinks",
+            "time": "2026-08-27_15-14-44"
+        },
+        {
+            "vert": 2,
+            "hor": 0,
+            "type": "good",
+            "time": "2026-08-27_15-14-46"
+        },
+        {
+            "vert": 2,
+            "hor": 1,
+            "type": "good",
+            "time": "2026-08-27_15-14-51"
+        },
+        {
+            "vert": 2,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_15-14-59"
+        },
+        {
+            "vert": 2,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_15-15-03"
+        },
+        {
+            "vert": 2,
+            "hor": 4,
+            "type": "good",
+            "time": "2026-08-27_15-15-06"
+        },
+        {
+            "vert": 2,
+            "hor": 5,
+            "type": "good",
+            "time": "2026-08-27_15-15-10"
+        },
+        {
+            "vert": 2,
+            "hor": 6,
+            "type": "sinks",
+            "time": "2026-08-27_15-15-18"
+        },
+        {
+            "vert": 2,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_15-15-23"
+        },
+        {
+            "vert": 2,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-27_15-15-28"
+        },
+        {
+            "vert": 2,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-08-27_15-15-33"
+        },
+        {
+            "vert": 3,
+            "hor": 0,
+            "type": "good",
+            "time": "2026-08-27_15-15-35"
+        },
+        {
+            "vert": 3,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_15-15-43"
+        },
+        {
+            "vert": 3,
+            "hor": 2,
+            "type": "good",
+            "time": "2026-08-27_15-15-45"
+        },
+        {
+            "vert": 3,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_15-15-53"
+        },
+        {
+            "vert": 3,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_15-15-58"
+        },
+        {
+            "vert": 3,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_15-16-03"
+        },
+        {
+            "vert": 3,
+            "hor": 6,
+            "type": "good",
+            "time": "2026-08-27_15-16-05"
+        },
+        {
+            "vert": 3,
+            "hor": 7,
+            "type": "good",
+            "time": "2026-08-27_15-16-10"
+        },
+        {
+            "vert": 3,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-27_15-16-18"
+        },
+        {
+            "vert": 3,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_15-16-23"
+        },
+        {
+            "vert": 4,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_15-16-28"
+        },
+        {
+            "vert": 4,
+            "hor": 1,
+            "type": "good",
+            "time": "2026-08-27_15-16-31"
+        },
+        {
+            "vert": 4,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_15-16-39"
+        },
+        {
+            "vert": 4,
+            "hor": 3,
+            "type": "good",
+            "time": "2026-08-27_15-16-41"
+        },
+        {
+            "vert": 4,
+            "hor": 4,
+            "type": "sinks",
+            "time": "2026-08-27_15-16-50"
+        },
+        {
+            "vert": 4,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_15-16-54"
+        },
+        {
+            "vert": 4,
+            "hor": 6,
+            "type": "good",
+            "time": "2026-08-27_15-16-57"
+        },
+        {
+            "vert": 4,
+            "hor": 7,
+            "type": "sinks",
+            "time": "2026-08-27_15-17-05"
+        },
+        {
+            "vert": 4,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-08-27_15-17-11"
+        },
+        {
+            "vert": 4,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-08-27_15-17-16"
+        },
+        {
+            "vert": 5,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_15-17-21"
+        },
+        {
+            "vert": 5,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_15-17-26"
+        },
+        {
+            "vert": 5,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_15-17-31"
+        },
+        {
+            "vert": 5,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_15-17-36"
+        },
+        {
+            "vert": 5,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_15-17-42"
+        },
+        {
+            "vert": 5,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_15-17-47"
+        },
+        {
+            "vert": 5,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-08-27_15-17-53"
+        },
+        {
+            "vert": 5,
+            "hor": 7,
+            "type": "good",
+            "time": "2026-08-27_15-17-54"
+        },
+        {
+            "vert": 5,
+            "hor": 8,
+            "type": "omission",
+            "time": "2026-08-27_15-18-00"
+        },
+        {
+            "vert": 5,
+            "hor": 9,
+            "type": "sinks",
+            "time": "2026-08-27_15-18-24"
+        },
+        {
+            "vert": 6,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_15-18-34"
+        },
+        {
+            "vert": 6,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_15-18-39"
+        },
+        {
+            "vert": 6,
+            "hor": 2,
+            "type": "sinks",
+            "time": "2026-08-27_15-18-45"
+        },
+        {
+            "vert": 6,
+            "hor": 3,
+            "type": "good",
+            "time": "2026-08-27_15-18-47"
+        },
+        {
+            "vert": 6,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-08-27_15-18-56"
+        },
+        {
+            "vert": 6,
+            "hor": 5,
+            "type": "good",
+            "time": "2026-08-27_15-18-58"
+        },
+        {
+            "vert": 6,
+            "hor": 6,
+            "type": "platform",
+            "time": "2026-08-27_15-19-06"
+        },
+        {
+            "vert": 6,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_15-19-11"
+        },
+        {
+            "vert": 6,
+            "hor": 8,
+            "type": "sinks",
+            "time": "2026-08-27_15-19-18"
+        },
+        {
+            "vert": 6,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_15-19-23"
+        },
+        {
+            "vert": 7,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_15-19-28"
+        },
+        {
+            "vert": 7,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_15-19-34"
+        },
+        {
+            "vert": 7,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_15-19-39"
+        },
+        {
+            "vert": 7,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_15-19-45"
+        },
+        {
+            "vert": 7,
+            "hor": 4,
+            "type": "contacts",
+            "time": "2026-08-27_15-19-51"
+        },
+        {
+            "vert": 7,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_15-19-56"
+        },
+        {
+            "vert": 7,
+            "hor": 6,
+            "type": "platform",
+            "time": "2026-08-27_15-20-01"
+        },
+        {
+            "vert": 7,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_15-20-07"
+        },
+        {
+            "vert": 7,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-27_15-20-13"
+        },
+        {
+            "vert": 7,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_15-20-18"
+        },
+        {
+            "vert": 8,
+            "hor": 0,
+            "type": "good",
+            "time": "2026-08-27_15-20-21"
+        },
+        {
+            "vert": 8,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_15-20-31"
+        },
+        {
+            "vert": 8,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_15-20-37"
+        },
+        {
+            "vert": 8,
+            "hor": 3,
+            "type": "good",
+            "time": "2026-08-27_15-20-39"
+        },
+        {
+            "vert": 8,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_15-20-49"
+        },
+        {
+            "vert": 8,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-08-27_15-20-55"
+        },
+        {
+            "vert": 8,
+            "hor": 6,
+            "type": "platform",
+            "time": "2026-08-27_15-21-15"
+        },
+        {
+            "vert": 8,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_15-21-25"
+        },
+        {
+            "vert": 8,
+            "hor": 8,
+            "type": "good",
+            "time": "2026-08-27_15-21-28"
+        },
+        {
+            "vert": 8,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_15-21-37"
+        },
+        {
+            "vert": 9,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_15-21-58"
+        },
+        {
+            "vert": 9,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_15-22-08"
+        },
+        {
+            "vert": 9,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_15-22-13"
+        },
+        {
+            "vert": 9,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-08-27_15-22-20"
+        },
+        {
+            "vert": 9,
+            "hor": 4,
+            "type": "good",
+            "time": "2026-08-27_15-22-22"
+        },
+        {
+            "vert": 9,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_15-22-30"
+        },
+        {
+            "vert": 9,
+            "hor": 6,
+            "type": "good",
+            "time": "2026-08-27_15-22-33"
+        },
+        {
+            "vert": 9,
+            "hor": 7,
+            "type": "good",
+            "time": "2026-08-27_15-22-38"
+        },
+        {
+            "vert": 9,
+            "hor": 8,
+            "type": "good",
+            "time": "2026-08-27_15-22-44"
+        },
+        {
+            "vert": 9,
+            "hor": 9,
+            "type": "omission",
+            "time": "2026-08-27_15-22-50"
+        }
+    ],
+    "Finish time": "2026-08-27_15-22-56"
+}

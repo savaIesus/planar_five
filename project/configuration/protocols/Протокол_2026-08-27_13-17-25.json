@@ -1,0 +1,606 @@
+{
+    "Start time": "2026-08-27_13-05-49",
+    "defects": [
+        {
+            "vert": 0,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_13-06-30"
+        },
+        {
+            "vert": 0,
+            "hor": 1,
+            "type": "good",
+            "time": "2026-08-27_13-06-38"
+        },
+        {
+            "vert": 0,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_13-06-46"
+        },
+        {
+            "vert": 0,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_13-06-51"
+        },
+        {
+            "vert": 0,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_13-06-56"
+        },
+        {
+            "vert": 0,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_13-07-01"
+        },
+        {
+            "vert": 0,
+            "hor": 6,
+            "type": "good",
+            "time": "2026-08-27_13-07-03"
+        },
+        {
+            "vert": 0,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_13-07-11"
+        },
+        {
+            "vert": 0,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-27_13-07-16"
+        },
+        {
+            "vert": 0,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-08-27_13-07-21"
+        },
+        {
+            "vert": 1,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_13-07-26"
+        },
+        {
+            "vert": 1,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_13-07-31"
+        },
+        {
+            "vert": 1,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_13-07-36"
+        },
+        {
+            "vert": 1,
+            "hor": 3,
+            "type": "good",
+            "time": "2026-08-27_13-07-39"
+        },
+        {
+            "vert": 1,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_13-07-47"
+        },
+        {
+            "vert": 1,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_13-07-52"
+        },
+        {
+            "vert": 1,
+            "hor": 6,
+            "type": "good",
+            "time": "2026-08-27_13-07-54"
+        },
+        {
+            "vert": 1,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_13-08-02"
+        },
+        {
+            "vert": 1,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-27_13-08-08"
+        },
+        {
+            "vert": 1,
+            "hor": 9,
+            "type": "sinks",
+            "time": "2026-08-27_13-08-14"
+        },
+        {
+            "vert": 2,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_13-08-18"
+        },
+        {
+            "vert": 2,
+            "hor": 1,
+            "type": "omission",
+            "time": "2026-08-27_13-08-21"
+        },
+        {
+            "vert": 2,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_13-08-30"
+        },
+        {
+            "vert": 2,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_13-08-35"
+        },
+        {
+            "vert": 2,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_13-08-40"
+        },
+        {
+            "vert": 2,
+            "hor": 5,
+            "type": "good",
+            "time": "2026-08-27_13-08-58"
+        },
+        {
+            "vert": 2,
+            "hor": 6,
+            "type": "platform",
+            "time": "2026-08-27_13-09-11"
+        },
+        {
+            "vert": 2,
+            "hor": 7,
+            "type": "sinks",
+            "time": "2026-08-27_13-09-16"
+        },
+        {
+            "vert": 2,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-27_13-09-21"
+        },
+        {
+            "vert": 2,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_13-09-27"
+        },
+        {
+            "vert": 3,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_13-09-32"
+        },
+        {
+            "vert": 3,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_13-09-38"
+        },
+        {
+            "vert": 3,
+            "hor": 2,
+            "type": "good",
+            "time": "2026-08-27_13-09-40"
+        },
+        {
+            "vert": 3,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_13-09-49"
+        },
+        {
+            "vert": 3,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_13-09-55"
+        },
+        {
+            "vert": 3,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_13-10-01"
+        },
+        {
+            "vert": 3,
+            "hor": 6,
+            "type": "omission",
+            "time": "2026-08-27_13-10-04"
+        },
+        {
+            "vert": 3,
+            "hor": 7,
+            "type": "good",
+            "time": "2026-08-27_13-10-09"
+        },
+        {
+            "vert": 3,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-08-27_13-10-18"
+        },
+        {
+            "vert": 3,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_13-10-24"
+        },
+        {
+            "vert": 4,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_13-10-30"
+        },
+        {
+            "vert": 4,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-08-27_13-10-36"
+        },
+        {
+            "vert": 4,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_13-10-41"
+        },
+        {
+            "vert": 4,
+            "hor": 3,
+            "type": "contacts",
+            "time": "2026-08-27_13-11-02"
+        },
+        {
+            "vert": 4,
+            "hor": 4,
+            "type": "sinks",
+            "time": "2026-08-27_13-11-13"
+        },
+        {
+            "vert": 4,
+            "hor": 5,
+            "type": "good",
+            "time": "2026-08-27_13-11-15"
+        },
+        {
+            "vert": 4,
+            "hor": 6,
+            "type": "omission",
+            "time": "2026-08-27_13-11-21"
+        },
+        {
+            "vert": 4,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_13-11-30"
+        },
+        {
+            "vert": 4,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-08-27_13-11-36"
+        },
+        {
+            "vert": 4,
+            "hor": 9,
+            "type": "good",
+            "time": "2026-08-27_13-11-38"
+        },
+        {
+            "vert": 5,
+            "hor": 0,
+            "type": "contacts",
+            "time": "2026-08-27_13-11-48"
+        },
+        {
+            "vert": 5,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_13-11-54"
+        },
+        {
+            "vert": 5,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_13-12-00"
+        },
+        {
+            "vert": 5,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_13-12-06"
+        },
+        {
+            "vert": 5,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_13-12-12"
+        },
+        {
+            "vert": 5,
+            "hor": 5,
+            "type": "good",
+            "time": "2026-08-27_13-12-15"
+        },
+        {
+            "vert": 5,
+            "hor": 6,
+            "type": "good",
+            "time": "2026-08-27_13-12-21"
+        },
+        {
+            "vert": 5,
+            "hor": 7,
+            "type": "good",
+            "time": "2026-08-27_13-12-27"
+        },
+        {
+            "vert": 5,
+            "hor": 8,
+            "type": "omission",
+            "time": "2026-08-27_13-12-35"
+        },
+        {
+            "vert": 5,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_13-12-43"
+        },
+        {
+            "vert": 6,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_13-12-49"
+        },
+        {
+            "vert": 6,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_13-12-55"
+        },
+        {
+            "vert": 6,
+            "hor": 2,
+            "type": "contacts",
+            "time": "2026-08-27_13-13-02"
+        },
+        {
+            "vert": 6,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_13-13-08"
+        },
+        {
+            "vert": 6,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_13-13-14"
+        },
+        {
+            "vert": 6,
+            "hor": 5,
+            "type": "good",
+            "time": "2026-08-27_13-13-17"
+        },
+        {
+            "vert": 6,
+            "hor": 6,
+            "type": "platform",
+            "time": "2026-08-27_13-13-27"
+        },
+        {
+            "vert": 6,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_13-13-33"
+        },
+        {
+            "vert": 6,
+            "hor": 8,
+            "type": "sinks",
+            "time": "2026-08-27_13-13-40"
+        },
+        {
+            "vert": 6,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_13-13-46"
+        },
+        {
+            "vert": 7,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-27_13-13-52"
+        },
+        {
+            "vert": 7,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-27_13-13-58"
+        },
+        {
+            "vert": 7,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_13-14-05"
+        },
+        {
+            "vert": 7,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-27_13-14-12"
+        },
+        {
+            "vert": 7,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_13-14-18"
+        },
+        {
+            "vert": 7,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_13-14-24"
+        },
+        {
+            "vert": 7,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-08-27_13-14-32"
+        },
+        {
+            "vert": 7,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_13-14-37"
+        },
+        {
+            "vert": 7,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-08-27_13-14-45"
+        },
+        {
+            "vert": 7,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_13-14-50"
+        },
+        {
+            "vert": 8,
+            "hor": 0,
+            "type": "sinks",
+            "time": "2026-08-27_13-14-58"
+        },
+        {
+            "vert": 8,
+            "hor": 1,
+            "type": "good",
+            "time": "2026-08-27_13-15-00"
+        },
+        {
+            "vert": 8,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_13-15-10"
+        },
+        {
+            "vert": 8,
+            "hor": 3,
+            "type": "omission",
+            "time": "2026-08-27_13-15-15"
+        },
+        {
+            "vert": 8,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-27_13-15-24"
+        },
+        {
+            "vert": 8,
+            "hor": 5,
+            "type": "contacts",
+            "time": "2026-08-27_13-15-31"
+        },
+        {
+            "vert": 8,
+            "hor": 6,
+            "type": "contacts",
+            "time": "2026-08-27_13-15-38"
+        },
+        {
+            "vert": 8,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_13-15-44"
+        },
+        {
+            "vert": 8,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-27_13-16-05"
+        },
+        {
+            "vert": 8,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-27_13-16-17"
+        },
+        {
+            "vert": 9,
+            "hor": 0,
+            "type": "good",
+            "time": "2026-08-27_13-16-20"
+        },
+        {
+            "vert": 9,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-08-27_13-16-31"
+        },
+        {
+            "vert": 9,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-27_13-16-37"
+        },
+        {
+            "vert": 9,
+            "hor": 3,
+            "type": "sinks",
+            "time": "2026-08-27_13-16-44"
+        },
+        {
+            "vert": 9,
+            "hor": 4,
+            "type": "good",
+            "time": "2026-08-27_13-16-46"
+        },
+        {
+            "vert": 9,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-27_13-16-56"
+        },
+        {
+            "vert": 9,
+            "hor": 6,
+            "type": "good",
+            "time": "2026-08-27_13-16-59"
+        },
+        {
+            "vert": 9,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-27_13-17-10"
+        },
+        {
+            "vert": 9,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-27_13-17-16"
+        },
+        {
+            "vert": 9,
+            "hor": 9,
+            "type": "good",
+            "time": "2026-08-27_13-17-19"
+        }
+    ],
+    "Finish time": "2026-08-27_13-17-25"
+}

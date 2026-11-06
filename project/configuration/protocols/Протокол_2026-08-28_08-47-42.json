@@ -1,0 +1,390 @@
+{
+    "Start time": "2026-08-28_08-41-40",
+    "defects": [
+        {
+            "vert": 0,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-28_08-42-03"
+        },
+        {
+            "vert": 0,
+            "hor": 1,
+            "type": "good",
+            "time": "2026-08-28_08-42-05"
+        },
+        {
+            "vert": 0,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-28_08-42-12"
+        },
+        {
+            "vert": 0,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-28_08-42-17"
+        },
+        {
+            "vert": 0,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-28_08-42-22"
+        },
+        {
+            "vert": 0,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-28_08-42-27"
+        },
+        {
+            "vert": 0,
+            "hor": 6,
+            "type": "platform",
+            "time": "2026-08-28_08-42-31"
+        },
+        {
+            "vert": 0,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-28_08-42-36"
+        },
+        {
+            "vert": 0,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-28_08-42-41"
+        },
+        {
+            "vert": 0,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-08-28_08-42-46"
+        },
+        {
+            "vert": 1,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-28_08-42-51"
+        },
+        {
+            "vert": 1,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-28_08-42-56"
+        },
+        {
+            "vert": 1,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-28_08-43-01"
+        },
+        {
+            "vert": 1,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-28_08-43-05"
+        },
+        {
+            "vert": 1,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-28_08-43-10"
+        },
+        {
+            "vert": 1,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-28_08-43-15"
+        },
+        {
+            "vert": 1,
+            "hor": 6,
+            "type": "platform",
+            "time": "2026-08-28_08-43-20"
+        },
+        {
+            "vert": 1,
+            "hor": 7,
+            "type": "platform",
+            "time": "2026-08-28_08-43-25"
+        },
+        {
+            "vert": 1,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-28_08-43-30"
+        },
+        {
+            "vert": 1,
+            "hor": 9,
+            "type": "sinks",
+            "time": "2026-08-28_08-43-36"
+        },
+        {
+            "vert": 2,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-28_08-43-40"
+        },
+        {
+            "vert": 2,
+            "hor": 1,
+            "type": "good",
+            "time": "2026-08-28_08-43-43"
+        },
+        {
+            "vert": 2,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-28_08-43-51"
+        },
+        {
+            "vert": 2,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-28_08-43-56"
+        },
+        {
+            "vert": 2,
+            "hor": 4,
+            "type": "good",
+            "time": "2026-08-28_08-43-58"
+        },
+        {
+            "vert": 2,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-28_08-44-06"
+        },
+        {
+            "vert": 2,
+            "hor": 6,
+            "type": "sinks",
+            "time": "2026-08-28_08-44-12"
+        },
+        {
+            "vert": 2,
+            "hor": 7,
+            "type": "sinks",
+            "time": "2026-08-28_08-44-17"
+        },
+        {
+            "vert": 2,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-28_08-44-22"
+        },
+        {
+            "vert": 2,
+            "hor": 9,
+            "type": "sinks",
+            "time": "2026-08-28_08-44-27"
+        },
+        {
+            "vert": 3,
+            "hor": 0,
+            "type": "good",
+            "time": "2026-08-28_08-44-29"
+        },
+        {
+            "vert": 3,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-08-28_08-44-37"
+        },
+        {
+            "vert": 3,
+            "hor": 2,
+            "type": "good",
+            "time": "2026-08-28_08-44-39"
+        },
+        {
+            "vert": 3,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-28_08-44-48"
+        },
+        {
+            "vert": 3,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-28_08-44-53"
+        },
+        {
+            "vert": 3,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-28_08-44-58"
+        },
+        {
+            "vert": 3,
+            "hor": 6,
+            "type": "platform",
+            "time": "2026-08-28_08-45-03"
+        },
+        {
+            "vert": 3,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-08-28_08-45-08"
+        },
+        {
+            "vert": 3,
+            "hor": 8,
+            "type": "contacts",
+            "time": "2026-08-28_08-45-14"
+        },
+        {
+            "vert": 3,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-28_08-45-19"
+        },
+        {
+            "vert": 4,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-28_08-45-24"
+        },
+        {
+            "vert": 4,
+            "hor": 1,
+            "type": "contacts",
+            "time": "2026-08-28_08-45-30"
+        },
+        {
+            "vert": 4,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-28_08-45-35"
+        },
+        {
+            "vert": 4,
+            "hor": 3,
+            "type": "omission",
+            "time": "2026-08-28_08-45-39"
+        },
+        {
+            "vert": 4,
+            "hor": 4,
+            "type": "sinks",
+            "time": "2026-08-28_08-45-46"
+        },
+        {
+            "vert": 4,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-28_08-45-51"
+        },
+        {
+            "vert": 4,
+            "hor": 6,
+            "type": "good",
+            "time": "2026-08-28_08-45-53"
+        },
+        {
+            "vert": 4,
+            "hor": 7,
+            "type": "good",
+            "time": "2026-08-28_08-45-59"
+        },
+        {
+            "vert": 4,
+            "hor": 8,
+            "type": "platform",
+            "time": "2026-08-28_08-46-07"
+        },
+        {
+            "vert": 4,
+            "hor": 9,
+            "type": "contacts",
+            "time": "2026-08-28_08-46-13"
+        },
+        {
+            "vert": 5,
+            "hor": 0,
+            "type": "platform",
+            "time": "2026-08-28_08-46-18"
+        },
+        {
+            "vert": 5,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-28_08-46-23"
+        },
+        {
+            "vert": 5,
+            "hor": 2,
+            "type": "platform",
+            "time": "2026-08-28_08-46-29"
+        },
+        {
+            "vert": 5,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-28_08-46-34"
+        },
+        {
+            "vert": 5,
+            "hor": 4,
+            "type": "platform",
+            "time": "2026-08-28_08-46-39"
+        },
+        {
+            "vert": 5,
+            "hor": 5,
+            "type": "platform",
+            "time": "2026-08-28_08-46-45"
+        },
+        {
+            "vert": 5,
+            "hor": 6,
+            "type": "good",
+            "time": "2026-08-28_08-46-47"
+        },
+        {
+            "vert": 5,
+            "hor": 7,
+            "type": "contacts",
+            "time": "2026-08-28_08-46-56"
+        },
+        {
+            "vert": 5,
+            "hor": 8,
+            "type": "good",
+            "time": "2026-08-28_08-46-58"
+        },
+        {
+            "vert": 5,
+            "hor": 9,
+            "type": "platform",
+            "time": "2026-08-28_08-47-07"
+        },
+        {
+            "vert": 6,
+            "hor": 0,
+            "type": "good",
+            "time": "2026-08-28_08-47-09"
+        },
+        {
+            "vert": 6,
+            "hor": 1,
+            "type": "platform",
+            "time": "2026-08-28_08-47-18"
+        },
+        {
+            "vert": 6,
+            "hor": 2,
+            "type": "good",
+            "time": "2026-08-28_08-47-21"
+        },
+        {
+            "vert": 6,
+            "hor": 3,
+            "type": "platform",
+            "time": "2026-08-28_08-47-29"
+        }
+    ],
+    "Finish time": "2026-08-28_08-47-42"
+}
